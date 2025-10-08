@@ -5,7 +5,7 @@ function addSpringMode() {
         const pageWrapper = document.getElementById('page_wrapper');
         if (pageWrapper) {
             const currentBg = pageWrapper.style.backgroundColor;
-            
+
             if (currentBg === 'rgb(186, 207, 165)' || currentBg === '#bacfa5ff' || currentBg === 'rgba(218, 255, 181, 1)') {
                 removeSpringStyles();
                 localStorage.setItem('springModeEnabled', 'false');
