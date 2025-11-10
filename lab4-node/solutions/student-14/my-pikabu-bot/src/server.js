@@ -11,6 +11,11 @@ const runServer = () => {
   dotenv.config();
   const token = process.env.TELEGRAM_BOT_TOKEN;
 
+  if (!token) {
+    console.error("TELEGRAM_BOT_TOKEN не установлен в .env!");
+    process.exit(1);
+  }
+
   const bot = new TelegramBot(token, {polling: true});
 
   const userData = new Map();
