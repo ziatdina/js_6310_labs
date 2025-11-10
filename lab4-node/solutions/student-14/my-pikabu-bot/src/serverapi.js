@@ -38,5 +38,5 @@ export const ApiServer = (userData) => {
     console.log(`✅ MyPikabu Bot API server запущен на http://localhost:${PORT}`);
   });
 
-  return server;
+  return app;
 };

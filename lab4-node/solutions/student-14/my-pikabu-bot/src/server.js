@@ -1,11 +1,11 @@
 import TelegramBot from 'node-telegram-bot-api';
 import dotenv from 'dotenv';
-import { states } from '../src/utils/states.js';
-import { newsSources } from '../src/utils/news-sources.js';
-import { categoryKeyboard, frequencyKeyboard, newsCommandKeyboard, newsFilters, sourceKeyboard, createnewsKeyboard } from '../src/utils/keyboards.js';
-import { displaySettings, displayNewsItem, applyFilters, saveToHistory } from '../src/utils/helper-functions.js';
-import { fetchNews } from '../src/utils/news-parse.js';
-import { ApiServer} from '../src/serverapi.js'
+import { states } from './utils/states.js'
+import { newsSources } from './utils/news-sources.js';
+import { categoryKeyboard, frequencyKeyboard, newsCommandKeyboard, newsFilters, sourceKeyboard, createnewsKeyboard } from './utils/keyboards.js';
+import { displaySettings, displayNewsItem, applyFilters, saveToHistory } from './utils/helper-functions.js';
+import { fetchNews } from './utils/news-parse.js';
+import { ApiServer} from './serverapi.js'
 
 const runServer = () => {
   dotenv.config();
