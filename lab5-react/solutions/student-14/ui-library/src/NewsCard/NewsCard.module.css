@@ -1,0 +1,83 @@
+.newsCard {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.authorSection {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.authorSection img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.authorText {
+    display: flex;
+    flex-direction: column;
+}
+
+.authorText span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #333333;
+    margin-bottom: 2px;
+}
+
+.authorText p {
+    margin: 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+.newsSection {
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.newsSection p {
+    margin: 0 0 16px 0;
+    font-size: 15px;
+    color: #333333;
+    white-space: pre-line;
+}
+
+.newsSection img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.newsSection img:last-child {
+    margin-bottom: 0;
+}
+
+.likeSection {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding-top: 12px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.likeSection span:first-child {
+    font-size: 14px;
+    color: #666666;
+    min-width: 20px;
+}
+
+.likeSection span:last-child {
+    cursor: pointer;
+    font-size: 18px;
+}
