@@ -1,0 +1,1 @@
+ссылка на пул реквест: https://github.com/ziatdina/social-news-aggregator-platform/pull/1
